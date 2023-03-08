@@ -8,6 +8,7 @@ nav {
     position: fixed;
     top: 0;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    z-index: 2;
 }
 
 nav ul {
@@ -34,13 +35,31 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    color: #fff;
     background-color: #373f27;
+}
+
+nav ul li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 #onpage {
     color: white;
     font-weight: bold;
-    text-decoration: underline;
 }
 
 #title {

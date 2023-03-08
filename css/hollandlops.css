@@ -7,37 +7,56 @@ h1 {
     font-family: 'Londrina Solid', cursive;
     text-align: center;
     padding-top: 3rem;
+    margin-bottom: .5em;
 }
 
 h2 {
     font-family: 'Sansita', sans-serif;
 }
 
+h3 {
+    color: #282e1c;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 4px;
+    /* font-family: 'Albert Sans', sans-serif; */
+    font-style: bold;
+    font-family: 'Sansita', sans-serif;
+}
+
 #about > p {
     width: 90%;
     margin: 1rem auto;
+    font-size: 14px;
 }
 
 #about {
     text-align: center;
 }
 
-main {
+#flex {
     display: flex;
     flex-wrap: wrap;
     row-gap: 16px;
     column-gap: 32px;
-    margin: auto;
+    margin: 1em auto;
     justify-content: center;
 }
 
 .bun {
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
     background-color: white;
     width: 25%;
-    padding: 1em 2em;
+    padding: 2em;
     font-size: 10px;
     height: fit-content;
+}
+
+.bun > p {
+    margin: 8px 0;
+    text-align: center;
+    font-size: 12px;
 }
 
 main > h2 {
@@ -58,24 +77,30 @@ img {
     height: auto;
 }
 
+p {
+    font-family: 'Albert Sans', sans-serif;
+}
+
 .container {
     position: relative;
 }
 
 .container-text {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(36, 62, 206, 0.6);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity .2s, visibility .2s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(66 71 46 / 90%);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .2s, visibility .2s;
 }
 
 .container:hover .container-text {
@@ -86,8 +111,26 @@ img {
 .container-text > p {
   transition: .2s;
   transform: translateY(1em);
+  width: 90%;
 }
 
 .container:hover .container-text > p {
   transform: translateY(0);
+}
+
+a {
+    color: #42472e;
+}
+
+a:hover, a:focus {
+    color: #42472e;
+    text-decoration: none;
+}
+
+a:active {
+    color: #282e1c;
+}
+
+strong {
+    color: #42472e;
 }

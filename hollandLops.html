@@ -23,6 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/info.css' rel='stylesheet'>
   </head>
   <body>
     <header>
@@ -55,8 +56,15 @@
             adoption policies</a> before calling or texting the following number: <strong>(123)-456-7890</strong>.</p>
       </div>
     <main>
-      <h2>Available Buns</h2>
-      <p>Hover over their image to learn more about them.</p>
+      <div id="available">
+        <h2>Available Buns</h2>
+        <div>
+          <i id="tooltip" class="gg-info">
+            <span id="tooltip-text">Hover over the images to learn more about each bunny.</span>
+          </i>
+        </div>
+      <!-- <p>Hover over their image to learn more about them.</p> -->
+      </div>
       <div id="flex">
         <div class="bun">
           <h3>Blue Eyed White Doe</h3>

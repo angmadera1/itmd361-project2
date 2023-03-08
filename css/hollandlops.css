@@ -1,12 +1,12 @@
 body {
-    background-color: #9e8987;
+    background-color: #c5b6b5;
 }
 
 h1 {
     color: #282e1c;
     font-family: 'Londrina Solid', cursive;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     margin-bottom: .5em;
     font-size: 3em;
 }
@@ -58,16 +58,20 @@ h3 {
     height: fit-content;
 }
 
-.bun > p {
+.bun-info {
     margin: 8px 0;
     text-align: center;
     font-size: 12px;
 }
 
+.bun-info > p {
+    padding: 0px;
+}
 
 iframe {
     width: 500px;
     height: 350px;
+    border: none;
 }
 
 img {
@@ -115,19 +119,6 @@ p {
 
 .container:hover .container-text > p {
   transform: translateY(0);
-}
-
-a {
-    color: #42472e;
-}
-
-a:hover, a:focus {
-    color: #42472e;
-    text-decoration: none;
-}
-
-a:active {
-    color: #282e1c;
 }
 
 strong {

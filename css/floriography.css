@@ -1,5 +1,5 @@
 body {
-    background-color: #deb563;
+    background-color: #e9cc91;
 }
 
 h1 {
@@ -27,7 +27,7 @@ p {
     font-family: 'Crimson Text', serif;
 }
 
-section#flowers {
+#flowers {
     display: flex;
     flex-wrap: wrap;
     row-gap: 16px;
@@ -47,19 +47,6 @@ section#flowers {
 footer > p {
     text-align: center;
     font-size: 12px;
-}
-
-a {
-    color:#636B46;
-}
-
-a:hover, a:focus {
-    color:#636B46;
-    text-decoration: none;
-}
-
-a:active {
-    color: #636B46;
 }
 
 img {

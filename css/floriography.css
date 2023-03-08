@@ -15,7 +15,6 @@ h1, h2, h3 {
 h3 {
     margin: 0px;
     text-align: center;
-    padding-bottom: .5em;
 }
 
 #learn > p, h2, footer {
@@ -53,4 +52,9 @@ img {
     width: 100%;
     max-width: 100%;
     height: auto;
+}
+
+.flower > p:first-of-type {
+    margin: 0px;
+    text-align: center;
 }

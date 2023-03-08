@@ -5,7 +5,7 @@ body {
 h1 {
     color: #282e1c;
     font-family: 'Londrina Solid', cursive;
-    text-align: center;
+    text-align: center; 
     padding-top: 2.5rem;
     margin-bottom: .5em;
     font-size: 3em;

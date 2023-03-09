@@ -5,6 +5,7 @@ body {
 h1 {
   text-align: center;
   padding-top: 2.5em;
+  color: #373f27;
 }
 
 h2 {
@@ -16,12 +17,13 @@ h2 {
 h3 {
   margin: 0px;
   text-align: center;
+  color: #373f27;
 }
 
 h1,
+h2,
 h3 {
   font-family: 'Fondamento', cursive;
-  color: #373f27;
 }
 
 #learn > p,

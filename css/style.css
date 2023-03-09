@@ -1,80 +1,82 @@
 nav {
-    font-family: 'Dosis', sans-serif;
-    font-size: 16px;
-    background-color: #636B46;
-    overflow: hidden;
-    float: left;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    z-index: 2;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	background-color: #636B46;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	z-index: 2;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	float: left;
 }
 
 nav ul li {
-    float: left;
-    position: relative;
-    right: 50%;
-    display: block;
+	float: left;
+	position: relative;
+	right: 50%;
+	display: block;
 }
 
 nav ul li a {
-    display: block;
-    padding: 15px 20px;
-    color: #fff;
-    text-decoration: none;  
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
 }
 
-nav ul li a:hover, nav ul li a:focus {
-    color: #fff;
-    background-color: #373f27;
+nav ul li a:hover,
+nav ul li a:focus {
+	color: #fff;
+	background-color: #373f27;
 }
 
 nav ul li a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #fff;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
 }
 
 nav ul li a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+	transform: scaleX(1);
+	transform-origin: bottom left;
 }
 
 #onpage {
-    color: white;
-    font-weight: bold;
+	color: white;
+	font-weight: bold;
 }
 
 #title {
-    margin: 0px;
+	margin: 0px;
 }
 
 a {
-    color:#636B46;
+	color: #636B46;
 }
 
-a:hover, a:focus {
-    color:#636B46;
-    text-decoration: none;
+a:hover,
+a:focus {
+	color: #636B46;
+	text-decoration: none;
 }
 
 a:active {
-    color: #636B46;
+	color: #636B46;
 }

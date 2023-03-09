@@ -7,13 +7,18 @@ h1 {
   padding-top: 2.5em;
 }
 
+h2 {
+  font-size: 22px;
+  text-align: center;
+  color: #636B46;
+}
+
 h3 {
   margin: 0px;
   text-align: center;
 }
 
 h1,
-h2,
 h3 {
   font-family: 'Fondamento', cursive;
   color: #373f27;
